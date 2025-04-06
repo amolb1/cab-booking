@@ -17,7 +17,6 @@ public class Vehicle {
    private String registrationNumber;
 
    private String color;
-
    private Integer capacity;
 
    private String vehicleClass;
