@@ -15,7 +15,6 @@ public class VehiclePositionCache implements Cache<String, VehiclePositionDriver
     public VehiclePositionCache(ReactiveRedisTemplate<String, VehiclePositionDriverDetails> redisTemplate, ReactiveHashOperations<String, String, VehiclePositionDriverDetails> hashOperations) {
         this.redisTemplate = redisTemplate;
         this.hashOperations = this.redisTemplate.opsForHash();
-
     }
 
     @Override
